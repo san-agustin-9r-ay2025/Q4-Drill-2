@@ -10,21 +10,22 @@
     <!-- Style -->
         <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background-image: url('ronaldplett-fire-2821775.jpg'); background-size: cover;">
     <div class="row">
         <div class="col-12 text-center">
             <div class="container bg-dark text-light p-5 mt-3">
-                <div class="row">
+                <div class="row mt-5">
                     <div class="col-8">
                         <h2>Heat Index Checker</h2>
                         <p id="popUp">Note</p>
                         <label for="">Degree in °C</label>
-                        <input type="number" class="form-control"><br>
+                        <input type="number" class="form-control" id="degreeCelsius"><br>
                         <label for="">humidity in %</label>
-                        <input type="number" class="form-control">
+                        <input type="number" class="form-control" id="percentagehumidity"><br>
+                        <button type="button" onclick="result()" class="btn btn-warning">Check</button>
                     </div>
                     <div class="col-4">
-                        <img src="">
+                        <img src="fire-logo-clipart-0.jpg">
                     </div>
                 </div>    
             </div>
